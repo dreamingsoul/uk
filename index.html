@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dreaming SouL</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Barriecito&family=Cabin+Sketch:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Delius&family=Fredericka+the+Great&family=Homemade+Apple&family=Macondo&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Schoolbell&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pompiere&family=Schoolbell&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+ <script src="https://kit.fontawesome.com/c42bd705fb.js" crossorigin="anonymous"></script>
+ <script src="script.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Give+You+Glory&family=Moon+Dance&family=Walter+Turncoat&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+ 
+  <header>
+
+     <nav class="navbar">
+       
+        <div class="navbar-brand">
+            <a href="index.html">
+                <img src="media/DreamingSouL.gif">
+            </a>
+        </div>
+        
+        <ul class="navbar-nav">
+         <div class="glow">
+        <li><a href="index.html">Home</a></li>
+          </div>
+        <li><a href="music.html#music">Music</a></li>
+      
+        <li><a href="stories.html#stories">Stories</a></li>
+      
+        <li><a href="contact.html#contact">Contact</a></li>
+        </ul>
+        
+        <ul class="social-icons">
+            <li><a href="https://www.instagram.com/dreamingsoul_13/"><i class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href="https://open.spotify.com/artist/3bJdp86yrrF60a2qDZcX6H?si=cg4re01ESISh9Ii0ErzEOw"><i class="fa-brands fa-spotify"></i></a></li>
+            <li><a href="https://youtube.com/@DreamingSoul-13?si=sWnNQau63M-w86bC"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://music.apple.com/gb/artist/dreaming-soul/17084666841"><i class="fa-brands fa-itunes"></i></a></li>
+            <li><a href="https://dreamingsoul.bandcamp.com"><i class="fa-brands fa-bandcamp"></i></a></li>
+            <li><a href="https://soundcloud.com/dreaming-soul-187924571"><i class="fa-brands fa-soundcloud"></i></a></li>
+      </ul>
+      
+    </nav>
+    
+  </header>
+  
+  <section id="home" class="section">
+    <h1>Dreaming SouL</h1>
+    <p class=typing>Lost in <span>Dreams</span>, Found in <span>Music</span></p>
+    
+    
+      
+      <div class="buttons-container">
+       <div id="info-btn">
+         <div class="glow">
+         <div class="buttons" >
+          <a href="#bio" class="stream-btn">info</a>
+         </div>
+        </div>
+        </div>
+        
+        <div id="info-btn">
+         <div class="glow">
+          <div class="buttons2" >
+          <a href="#vinyls" class="stream-btn">listen</a>
+         </div>
+        </div>
+        </div>
+        
+        </div>
+        
+    
+   
+  </section>
+  
+  
+  <section id="home" class="section2">
+<div class="album-container">
+  
+   <div class="photo">
+    <img id="album-image" src="images/kasetto.png">
+   </div>
+    
+    <div class="album-details">
+        <h2 class="album-title">Recent Release</h2>
+        <p class="artist-name">Kasetto</p>
+        
+        <div class="glow">
+        <div class="buttons">
+         <a href="https://fanlink.to/kasetto" class="stream-btn">Stream</a>
+        </div>
+        </div>
+
+    </div>
+</div>  
+  
+   
+   
+<style>
+   
+    #info-btn .buttons{
+        padding-left: 705px;
+        padding-top: 280px;
+    }
+     #info-btn .buttons2{
+        padding-right: 470px;
+        margin-top: 280px;
+    }
+    
+    .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    
+    .buttons {
+    text-align: center;
+}
+.stream-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid ;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Barriecito", system-ui;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: background-color 0.3s, transform 0.2s;
+    background-color: #2B294F;
+}
+.stream-btn:hover {
+    background-color: #F5B041  ;
+    color: #2B294F;
+    transform: scale(1.05); 
+    border: 2px solid #2B294F;
+} 
+.album-container {
+        background-color: rgba(43, 41, 79, 0.5); /* #2B294F with 50% opacity */
+        display: flex;
+        max-width:auto;
+        background: none;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+    .album-image {
+
+        width: 100%;
+        height: auto;
+        border-radius: 10px 0 0 10px;
+    }
+    .album-details {
+         margin-left:-70px;
+        width: 50%;
+        padding: 100px;
+    }
+
+    .album-title {
+        font-size: 25px;
+        margin-bottom: 10px;
+         font-family: "Barriecito", system-ui;
+        font-weight: 200;
+        letter-spacing: 2px;
+    }
+    .artist-name {
+        font-size: 18px;
+        font-family: monospace;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .play-button {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .play-button:hover {
+        background-color: #555;
+    }
+        
+    
+        .photo {
+            margin: 50px auto;
+            margin-right:-80px;
+            border: 5px solid #fff;
+            width: 250px;
+            height: 250px;
+            position: relative;
+            box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.4), 0px 20px 10px rgba(0, 0, 0, 0.2);
+        }
+       .photo2 {
+            margin: 50px auto;
+            border: 5px solid #fff;
+            width: 200px;
+            height: 200px;
+            position: relative;
+            box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.4), 0px 20px 10px rgba(0, 0, 0, 0.2);
+        }
+    .photo3 {
+            margin: 50px auto;
+            border:none;
+            width: 200px;
+            height: 200px;
+            position: relative;
+            box-shadow:none;
+        }
+        #album-image {
+            width: 250px;
+            height: 250px;
+        }
+        #album-image2 {
+            width: 200px;
+            height: 200px;
+        }
+        .photo:before {
+            content: "";
+            height: 25px;
+            width: 80px;
+            background-color: rgba(245, 176, 65, 0.3); 
+            position: absolute;
+            top: -3px;
+            left: -5px;
+            transform: translateX(-30%) translateY(10%) rotate(-45deg);
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+        }
+       .photo2:before {
+            content: "";
+            height: 22px;
+            width: 90px;
+            background-color: rgba(43, 41, 79, 0.8);
+            position: absolute;
+            top: -3px;
+            left: 210px;
+            transform: translateX(-80%) translateY(10%) rotate(45deg);
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+        }
+     .photo3:before {
+            content: "";
+            height: 22px;
+            width: 90px;
+            background-color: rgba(43, 41, 79, 0.8);
+            position: absolute;
+            top: -80px;
+            left: 40px;
+            transform: translateX(-80%) translateY(10%) rotate(45deg);
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    
+<style>
+    .vinyls {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding-top: -40px;
+    }
+    .albumVinyl {
+        width: calc(33.33% - 20px);
+        position: relative;
+        text-align: center;
+    }
+    h4{
+        padding-top: 50px;
+         text-align: center;
+    font-family: "Delius", cursive;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+        
+    }
+</style>
+
+
+<h4 id="vinyls">Listen</h4>
+<div class="vinyls">
+  <div class="album albumVinyl">
+  <div class="cover">
+    <img src="images/suburbs.jpg" onmouseover="playAudio('audio1')" onmouseout="pauseAudio()">
+  </div>
+  <div class="vinyl round">
+    <div class="label round">
+      <div class="hole round">
+      </div>
+      <div class="textCon">
+        <h1>Stars Align</h1>
+        <h3>Suburbs</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="album albumVinyl">
+  <div class="cover">
+    <img src="images/Somewherequiet.jpg" onmouseover="playAudio('audio2')" onmouseout="pauseAudio()">
+  </div>
+  <div class="vinyl round">
+    <div class="label round">
+      <div class="hole round">
+      </div>
+      <div class="textCon">
+        <h1>Stars Don't Cry</h1>
+        <h3>Somewhere Quiet</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="album albumVinyl">
+  <div class="cover">
+    <img src="images/strangesteps.jpg" onmouseover="playAudio('audio3')" onmouseout="pauseAudio()">
+  </div>
+  <div class="vinyl round">
+    <div class="label round">
+      <div class="hole round">
+      </div>
+      <div class="textCon">
+        <h1>Strange Steps</h1>
+        <h3>Single</h3>
+      </div>
+    </div>
+  </div>
+</div>  
+</div>
+   
+<audio id="audio1" src="music/Stars%20Align.wav"></audio>
+  <audio id="audio2" src="music/Stars%20dont%20cry.wav"></audio>
+  <audio id="audio3" src="music/Strange%20Steps.wav"></audio>
+   
+    
+<style>
+    .vinyl{
+     display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+/*Basic Vinyl Style*/
+.album {
+  margin: 10vw auto;
+  box-shadow: 0 7px 10px #aaa;
+}
+
+.album,
+.album .cover,
+.album .cover img,
+.album .vinyl {
+  width: 200px;
+  height: 200px;
+    border: 3px solid #000;
+}
+
+.album > div,
+.album .vinyl > div {
+  position: absolute;
+}
+
+.album .cover {
+  z-index: 2;
+}
+
+.album .vinyl {
+  background-color: #202020;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+.album .vinyl .label {
+  background-color: #AF8F80;
+  width: 50%;
+  height: 50%;
+  left: 25%;
+  top: 25%;
+}
+
+.album .vinyl .hole {
+  background-color: #eee;
+  width: 5%;
+  height: 5%;
+  margin: 45% auto 0 auto;
+}
+
+.album .textCon {
+  margin-top: 10px;
+}
+
+.album .textCon h1,
+.album .textCon h3 {
+  color: #000;
+    font-weight: bold;
+  font-size: 0.65em;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 5px 0;
+}
+
+.album .textCon h3 {
+  font-size: 0.25em;
+}
+
+
+/*Vinyl Style*/
+
+.albumVinyl .round {
+  border-radius: 9999px;
+}
+
+.albumVinyl .vinyl {
+  transform: translate(50px, 0) rotate(-180deg);
+}
+
+.albumVinyl .vinyl:hover,
+.albumVinyl .cover:hover + .vinyl {
+  transform: translate(180px, 0) rotate(0deg);
+}
+
+sform: translate(150px, 0);
+}
+    
+</style>
+    <br><br>
+    <hr>
+    <br><br>
+    
+  <section class="bio-section" id="bio">
+  <div class="letter">
+    <div class="header">
+    <div class="photo2">
+    <img id="album-image2" src="images/pic2%20copy.png">
+   </div>
+    <div class="photo3">
+
+   </div>
+    
+    </div>
+
+    <div class="content">
+      <p>
+        Hey there,
+        <br><br>
+        I'm Dreaming Soul,  lofi music producer from the UK!  I've got this knack for cooking up some seriously soul-stirring melodies that whisper tales of dreams and memorie lanes.
+        <br><br>
+        Smooth beats, dreamy melodies, and just a touch of nostalgia – that's my jam. And you know what's even cooler? Music is like this universal language through which one can share their thoughts and stories around the world, irrespestive of where they are.
+        <br><br>
+        So, if you're ever in need of a musical escape or just wanna kick back and vibe out, I've got you covered. 
+        <br><br>
+        Sincerely,
+        <br>
+        Dreaming SouL
+      </p>
+    </div>
+  </div>
+</section>
+ 
+ <style>
+     
+.bio-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.letter {
+   margin: -50px auto 0;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px;
+  background:none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+     .content{
+          margin: -250px auto 0;
+         padding-top: -40px;
+     }
+.content p {
+  font-size: 18px;
+  font-weight: 200px;
+  line-height: 1.6;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  text-align-last: left;
+}
+      </style>
+  
+   
+   
+   
+  </section>
+  
+
+  
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Dreaming SouL. All rights reserved.</p>
+      
+    </div>
+</footer>
+
+
+
+</body>
+</html>

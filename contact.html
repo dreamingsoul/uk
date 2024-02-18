@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dreaming SouL</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Barriecito&family=Cabin+Sketch:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Delius&family=Fredericka+the+Great&family=Homemade+Apple&family=Macondo&display=swap" rel="stylesheet">
+ <script src="https://kit.fontawesome.com/c42bd705fb.js" crossorigin="anonymous"></script>
+ <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Give+You+Glory&family=Moon+Dance&family=Walter+Turncoat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+ 
+  <header>
+
+     <nav class="navbar">
+       
+        <div class="navbar-brand">
+            <a href="index.html">
+                <img src="media/DreamingSouL.gif">
+            </a>
+        </div>
+        
+        <ul class="navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="music.html#music">Music</a></li>
+        <li><a href="stories.html#stories">Stories</a></li>
+         <div class="glow">
+        <li><a href="contact.html#contact">Contact</a></li>
+            </div>
+        </ul>
+        
+        <ul class="social-icons">
+            <li><a href="https://www.instagram.com/dreamingsoul_13/"><i class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href="https://open.spotify.com/artist/3bJdp86yrrF60a2qDZcX6H?si=cg4re01ESISh9Ii0ErzEOw"><i class="fa-brands fa-spotify"></i></a></li>
+            <li><a href="https://youtube.com/@DreamingSoul-13?si=sWnNQau63M-w86bC"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://music.apple.com/gb/artist/dreaming-soul/17084666841"><i class="fa-brands fa-itunes"></i></a></li>
+            <li><a href="https://dreamingsoul.bandcamp.com"><i class="fa-brands fa-bandcamp"></i></a></li>
+            <li><a href="https://soundcloud.com/dreaming-soul-187924571"><i class="fa-brands fa-soundcloud"></i></a></li>
+      </ul>
+      
+    </nav>
+    
+  </header>
+  
+  <section id="home" class="section3">
+    <h4>Hey! Lets have a chat</h4>
+    
+   
+  <div class="container">
+    <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+       <input type="hidden" name="access_key" value="ac354e94-f0ad-4290-958c-882f03fee5e1">
+       <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" required>
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+      <div class="glow">
+      
+      <button type="submit" id="submit-btn">Submit</button>
+      
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+  
+ <style>
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #2B294F;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+label {
+  margin-bottom: 5px;
+ font-family: "Barriecito", system-ui;
+    text-align: left;
+    letter-spacing: 1.5px;
+}
+input,
+textarea {
+    background-color:aliceblue;
+  font-family: monospace;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 80px;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Barriecito", system-ui;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    background-color:  #2B294F; 
+    transition: background-color 0.3s, transform 0.2s;
+}
+button:hover {
+    background-color: #F5B041;
+    border: 1px solid #2B294F;
+    color: #2B294F;
+}
+h4 {
+    text-align: center;
+    font-family: "Delius", cursive;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+</style>
+   
+</section>
+  
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Dreaming SouL. All rights reserved.</p>
+      
+    </div>
+</footer>
+  
+  
+</body>
+</html>
