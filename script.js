@@ -46,3 +46,32 @@ function pauseAudio() {
         audio.currentTime = 0;
     }
 }
+
+
+let slideIndex = 0;
+
+function moveCarousel(n) {
+  const slides = document.querySelector('.carousel');
+  const albums = document.querySelectorAll('.album');
+  const albumWidth = albums[0].offsetWidth;
+  const maxIndex = albums.length - 1;
+  slideIndex += n;
+  if (slideIndex < 0) {
+    slideIndex = maxIndex;
+  } else if (slideIndex > maxIndex) {
+    slideIndex = 0;
+  }
+  slides.style.transform = `translateX(-${slideIndex * albumWidth}px)`;
+}
+
+
+
+
+
+
+
+
+
+
+
+
