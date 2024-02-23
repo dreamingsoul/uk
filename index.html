@@ -30,13 +30,13 @@
         
      <ul class="navbar-nav">
              <div class="glow">
-         <li><a href="index.html">Home</a></li>
+         <li><a href="index.html">home</a></li>
              </div>
-         <li><a href="music.html#music">Music</a></li>
+         <li><a href="music.html#music">music</a></li>
       
-         <li><a href="stories.html#stories">Stories</a></li>
+         <li><a href="stories.html#stories">stories</a></li>
       
-         <li><a href="contact.html#contact">Contact</a></li>
+         <li><a href="index.html#contact">contact</a></li>
      </ul>
         
     <ul class="social-icons">
@@ -92,12 +92,12 @@
    </div>
     
     <div class="album-details">
-        <h2 class="album-title">New music</h2>
+        <h2 class="album-title">new music</h2>
         <p class="artist-name">Somewhere Quiet</p>
         
         <div class="glow">
         <div class="buttons">
-         <a href="https://fanlink.to/kasetto" class="stream-btn">Stream</a>
+         <a href="https://fanlink.to/kasetto" class="stream-btn">stream</a>
         </div>
         </div>
         
@@ -162,7 +162,7 @@
 </style>
 
 
-<h4 id="vinyls">Listen</h4>
+<h4 id="vinyls"></h4>
 <div class="vinyls">
   <div class="album albumVinyl">
   <div class="cover">
@@ -341,11 +341,105 @@ sform: translate(150px, 0);
     </div>
   </div>
 </section>
+
+
+<hr><hr>
+    
+   
+  <div class="container" id="contact">
+    <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+       <input type="hidden" name="access_key" value="ac354e94-f0ad-4290-958c-882f03fee5e1">
+       
+       <label for="name"></label>
+      <input type="text" id="name" name="name" placeholder="your name" required>
+      
+      <label for="email"></label>
+      <input type="email" id="email" name="email" placeholder="your email"required>
+      
+      <label for="message"></label>
+      <textarea id="message" name="message" rows="6" placeholder="your message" required></textarea>
+      <div class="glow">
+      
+      <button type="submit" id="submit-btn">Submit</button>
+      
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+  
+ <style>
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #2B294F;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+label {
+  margin-bottom: 5px;
+ font-family: "Barriecito", system-ui;
+    text-align: left;
+    letter-spacing: 1.5px;
+}
+input,
+textarea {
+    background-color:aliceblue;
+  font-family: monospace;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 80px;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Barriecito", system-ui;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    background-color:  #2B294F; 
+    transition: background-color 0.3s, transform 0.2s;
+}
+button:hover {
+    background-color: #F5B041;
+    border: 1px solid #2B294F;
+    color: #2B294F;
+}
+h4 {
+    text-align: center;
+    font-family: "Delius", cursive;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+</style>
+   
+</section>
  
    
    
    
-  </section>
   
 
   

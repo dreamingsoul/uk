@@ -34,6 +34,7 @@ header {
     display: flex;
     flex-direction: column;
     color: #fff;
+    
 }
 .section5 {
         padding: 50px;
@@ -244,14 +245,7 @@ p span{
         0% { width: 0; }
         100% { width: 100%; }
 }
-.footer66 {
-  font-family: "Walter Turncoat", cursive;
-  background-color:#2B294F;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
-  bottom: 0;
-}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -272,7 +266,7 @@ p span{
 }
 
 footer {
-  background-color:#2B294F;
+  background:none;
   color: #fff;
   padding: 10px 0;
   text-align: center;
